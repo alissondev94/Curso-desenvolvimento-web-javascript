@@ -1,5 +1,5 @@
-let a = 7;
-let b = 94;
+let a = 28;
+let b = 70;
 
 let temp = a;
 
