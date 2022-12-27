@@ -4,8 +4,10 @@ function rand({min = 0, max = 1000}) {
 }
 
 const obj = {max: 100, min: 10}
-console.log(rand(obj))
+console.log(rand(obj)) 
 
-console.log(rand({min: 200})) // pegando a minima ele pega a maxima global
+console.log(rand({min: 200})) // Utilizando a mininma
 
-console.log(rand({})) // objeto vazio pega os parametos desctructuring global
+console.log(rand({max: 999})) //utilizando somente a maxima 
+
+console.log(rand({})) // objeto vazio pega os parametos desctructuring global que foi definido acima entre 0 e 1000
