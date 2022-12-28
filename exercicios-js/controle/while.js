@@ -11,3 +11,16 @@ while (opcao != -1) {
 }
 
 console.log('Até a proxima!')
+
+// teste2
+
+function numAleatorio(min, max){
+    const valor = Math.random() * (max - min) + min
+    return Math.floor(valor)
+}
+
+let cont = -0
+while (cont != -1){
+    cont = numAleatorio(-1, 10)
+    console.log(`resp = ${cont}`)
+}
