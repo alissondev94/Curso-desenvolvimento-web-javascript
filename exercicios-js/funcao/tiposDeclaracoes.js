@@ -4,7 +4,7 @@ function soma(x, y) {
 }
 
 // Function expression
-const sub = function (x, y)c{
+const sub = function (x, y){
     return x - y
 }
 
