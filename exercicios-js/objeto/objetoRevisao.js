@@ -28,13 +28,17 @@ const carro = {
         idade: 42,
     }, {
         nome: 'João',
-        idade: 28,
+        idade: 28
     }],
     calcularValorSeguro: function() {
-        // ... 
+        // ...
     }
 }
 
-console.log(carro)
 
 carro.proprietario.endereco.numero = 1000
+console.log(carro)
+delete carro.condutores
+delete carro.calcularValorSeguro
+console.log(carro)
+console.log(carro.condutores)
